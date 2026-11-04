@@ -8,13 +8,7 @@ We use [Vitest](https://vitest.dev/) as our testing framework, which is designed
 
 ### Test Commands
 
-Add these commands to your `package.json`:
-
-```json
-"test": "vitest run",
-"test:watch": "vitest",
-"test:ui": "vitest --ui"
-```
+These scripts are already defined in `package.json`:
 
 - `npm run test` - Run tests once
 - `npm run test:watch` - Run tests in watch mode (rerun when files change)
